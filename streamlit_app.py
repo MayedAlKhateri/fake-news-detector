@@ -335,6 +335,8 @@ st.markdown(
             padding-bottom: 3rem;
         }
         #MainMenu, footer, [data-testid="stDecoration"] { visibility: hidden; }
+        header[data-testid="stHeader"], [data-testid="stToolbar"], [data-testid="stAppDeployButton"],
+        .viewerBadge_container__1QSob, [class^="viewerBadge_"], [class*=" viewerBadge_"] { display: none !important; }
         div[data-testid="stTextInput"] input, div[data-testid="stTextArea"] textarea {
             background: rgba(11, 20, 32, 0.9);
             color: #edf4ff;
