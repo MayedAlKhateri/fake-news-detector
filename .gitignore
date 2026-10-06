@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model files are hosted on Hugging Face (Mayeds/fake-news-detector-model)
+fake_news_hybrid/
